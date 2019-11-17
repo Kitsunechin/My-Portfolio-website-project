@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color: #aaa;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  .photo {
+      width: 120px;
+      height: 120px;
+      position: reletive;
+      float: right;
+      margin-top: -10%;
+      margin-right: 10%; 
+      border-radius: 90%;
+      background-color: #AAAAAA;
+  }
+  
+  img {
+      font-size: 0.8em;
+
+  }
+
+  header {
+    padding: 12% 0;
+  }
+
+  button {
+      float: left;
+      border-radius: 5px;
+      margin-left: 10%;
+      font-size: 0.7em;
+      padding: 2.5%;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #bbb;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
+
+  .box {
+    display: flexbox;
+    padding: 10%;
+  }
+
+  .about-me {
+    display: inline-block;
+    text-align: left;
+  }
+
+  h2 {
+    text-align: left; 
+    margin-top: 0;
+  }
+
+  .skills {
+      text-align: left;
+      font-weight: bolder;
+      margin-top: 5%;
+  }
+
+  .find ul {
+      text-align: left;
+  }
+
+  .find li {
+    display: inline-block;
+  }
+
+
+  @media only screen and (min-width: 640px) {
+    .photo-box {
+        top: 24%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .photo-box {
+        top: 30%;
+        width: 200px;
+        height: 200px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .photo-box {
+        top: 35%;
+    }
+
+     .skills {
+      display: relative;
+      float: right;
+      margin-right: 15%;
+      font-weight: bolder;
+    }
+
+    .about-me {
+      position: absolute;
+      width: 40%;
+      left: 10%;
+    }
+
+    div.about {
+      padding-bottom: 25%;
+    }
+
+    .projects {
+      display: flexbox;
+      vertical-align: middle;
+    }
+
+    div.project {
+      display: inline;  
+    }
+
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .photo-box {
+        top: 50%;
+    }
+  }
+
+  
