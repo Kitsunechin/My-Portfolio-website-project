@@ -2,148 +2,342 @@
     box-sizing: border-box;
   }
   
-  body {
-    font-family: "Open Sans",
-    sans-serif; 
-    font-size: 20px;
-    color: #444;
-    text-align: center;
-    line-height: 1.5;
-  }
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #282C34;
+}
   
-  nav,
-  footer {
-    padding: 1% 0;
-    background-color: #aaa;
-  }
+nav,
+footer {
+  padding: 1% 0;
+  background-color: #282C34;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+li.nav-item {
+  list-style-type: none;
+  margin: 0 3 0 0%;
+  font-size: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #A9B0BC;
+}
+
+nav a:hover{
+  background-color: #99C27C;
+  color: #282C34;
+  border-radius: 3%;
+  cursor: pointer;
+}
+
+.button-menu {
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 3%;
+  float: right;
+}
+
+.nav-logo,
+.logo-start {
+  color: #D06872;
+  display:inline;
+  font-size: 1em;
+}
+
+.logo-start {
+  margin-left: 3%;
+}
+.nav-logo-end {
+  text-align: right;
+  color: #D06872;
+  font-size: 1em;
+}
+
+.photo img {
+  width: 25%;
+  position: relative;
+  float: right;
+  margin-top: -16%; 
+  margin-right: 12%;
+  font-size: 0.8em;
+  clip-path: circle();
+}
+
+.photo.box {
+  padding: 0;
+}
+
+img.project-content {
+  width: 30%;
+  float: left;
+  margin-right: 10%;
+  opacity: 0.96;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px; 
+}
+
+.break-clear {
+  clear: both;
+  border: none;
+}
+
+h1.title-main{
+  font-weight: 400;
+}
+
+h2.title-sub {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.text-style::before {
+  content: "\A"; 
+  white-space: pre-line; 
+}
+
+a.repo::before { 
+  content: "\A"; 
+  white-space: pre; 
+} 
+
+.repo-live:hover {
+  background-color: #99C27C;
+  font-weight: bold;
+  text-decoration: none;
+  color: #282C34;
+  cursor: pointer;
+}
+
+.repo-live {
+  color: #99C27C;
+  text-decoration: none;
+}
+
+.style-text {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+div.project-content {
+  text-align: left;
+}
+
+.projects-box {
+  padding: 5%;
+  height: 50%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copy-right {
+  color: #A9B0BC;
+  display: inline;
+  margin-right: 35%; 
+}
+
+header {
+  padding: 0 5% 17% 0;
+  text-align: left;
+  margin-left: 10%;
+  color: #A9B0BC;
+}
+
+.contact-button {
+  float: left;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+  margin-top: 4%;
+   padding: 4%;
+  background-color: #D06872;
+  color: #282C34;
+}
   
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-  }
+button.contact-button:hover {
+  background-color: #99C27C;
+  cursor: pointer;
+}
+
+.contact-button a {
+  text-decoration: none;
+  color: #282C34;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #282C34;
+  color: #A9B0BC;
+}
   
-  .photo {
-      width: 120px;
-      height: 120px;
-      position: reletive;
-      float: right;
-      margin-top: -10%;
-      margin-right: 10%; 
-      border-radius: 90%;
-      background-color: #AAAAAA;
-  }
-  
-  img {
-      font-size: 0.8em;
+section:nth-child(even) {
+  background-color: #FAFAFA;
+  color: #282C34;
+}
+.box {
+  display: flexbox;
+  padding: 10%;
+}
 
-  }
+.about-me {
+  display: inline-block;
+  text-align: left;
+}
 
-  header {
-    padding: 12% 0;
-  }
+h2 {
+  text-align: left; 
+  margin-top: 0;
+}
 
-  button {
-      float: left;
-      border-radius: 5px;
-      margin-left: 10%;
-      font-size: 0.7em;
-      padding: 2.5%;
-  }
-  
-  section {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #bbb;
-  }
-  
-  section:nth-child(even) {
-    background-color: #ddd;
-  }
+.skills {
+  text-align: left;
+  font-weight: bolder;
+  margin-top: 5%;
+}
 
-  .box {
-    display: flexbox;
-    padding: 10%;
-  }
+ul.style-list {
+  padding:0;
+  list-style-type: none;
+  font-weight: normal;
+}
 
-  .about-me {
-    display: inline-block;
-    text-align: left;
-  }
+span.style-list {
+  font-weight: bolder;
+}
 
-  h2 {
-    text-align: left; 
-    margin-top: 0;
+.script {
+  color: rgb(189, 189, 30);
+}
+
+.styling {
+  color: rgb(14, 178, 243);
+}
+
+.markup {
+  color: #D06872;
+}
+
+.find ul {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.find li {
+  display: inline-block;
+}
+
+.find.box {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.social-img {
+  height: 30px;
+  width: 30px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .photo-box {
+    top: 35%;
   }
 
   .skills {
-      text-align: left;
-      font-weight: bolder;
-      margin-top: 5%;
+    display: relative;
+    float: right;
+    font-weight: bolder;
   }
 
-  .find ul {
-      text-align: left;
+  .about-me {
+    position: absolute;
+    width: 40%;
+    left: 10%;
   }
 
-  .find li {
-    display: inline-block;
+  div.about {
+    padding-bottom: 25%;
   }
 
+}
 
-  @media only screen and (min-width: 640px) {
-    .photo-box {
-        top: 24%;
-    }
+@media only screen and (min-width: 1200px) {
+  .photo-box {
+    top: 50%;
+  }
+  .nav-list {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .photo-box {
+    top: 24%;
+  }
+    
+  .nav-list {
+    flex-direction: column;
+    text-align: right;
+  }
+    
+  .nav-item {
+    margin: 0;
+    display: none;
   }
 
-  @media only screen and (min-width: 768px) {
-    .photo-box {
-        top: 30%;
-        width: 200px;
-        height: 200px;
-    }
+  .button-menu {
+    display: block;
+    margin-right: 2%;
+    float: right;
+    font-size: 3vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #282C34;
+}
+
+  header {
+    padding-bottom: 25%;
   }
 
-  @media only screen and (min-width: 1024px) {
-    .photo-box {
-        top: 35%;
-    }
-
-     .skills {
-      display: relative;
-      float: right;
-      margin-right: 15%;
-      font-weight: bolder;
-    }
-
-    .about-me {
-      position: absolute;
-      width: 40%;
-      left: 10%;
-    }
-
-    div.about {
-      padding-bottom: 25%;
-    }
-
-    .projects {
-      display: flexbox;
-      vertical-align: middle;
-    }
-
-    div.project {
-      display: inline;  
-    }
-
+  .copy-right {
+    margin-right: 8%;
   }
 
-  @media only screen and (min-width: 1200px) {
-    .photo-box {
-        top: 50%;
-    }
+  img.project-content {
+    margin-right: 5%;
+    margin-bottom: 0;
   }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .photo-box {
+    top: 30%;
+    width: 200px;
+    height: 200px;
+  }
+  img.project-content {
+    margin-bottom: 10%;
+    margin-top: 5%;
+  }
+  }
+
+  
 
   

@@ -4,55 +4,70 @@
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <nav role="navigation">Nav</nav>
-         <main role="main">
-         <header role="banner">
-             <h1>Hero</h1>
-             <button>Contact Me</button>
-         </header>
-         <section>
-             <div class="photo box">
-                 <img alt="Profile photo" src="profile-photo"/>
-             </div>
-             <div class="about box">
-             <h2>About</h2>
-             <div class="about-me">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-              </div>
-              <div class="skills">Skills
-                  <ul>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                  </ul>
-               </div>
-               </div>
-           </section>
-    
-         <section class="work box">
-            <h2>Work</h2>
-            <div class= "projects box">
-            <div class= "project">Project1</div>
-            <div class= "project">Project2</div>
-            <div class= "project">Project3</div>
+    <!-- navigation -->
+    <header class="navigation" id="js-top">
+        <nav role="navigation" class="nav">
+            <div class ="logo-start">&lthtml&gt</div>
+            <button role="button" class="button-menu" id="js-button-menu" aria-expanded="false" aria-controls="more-content"><span class="nav-logo">&ltnav/&gt</span></button>
+            <ul class="nav-list" aria-hidden="true">
+                <li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-top">Home/&nbsp</a></li>
+                <li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-about">About/&nbsp</a></li>
+                <li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-projects">Projects/&nbsp</a></li>
+                <li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-find">Find Me/</a></li>
+            </ul>            
+        </nav>
+    </header>
+    <!-- Home screen -->
+        <main role="main">
+        <header role="banner">
+            <h1 class="title-main">Hello, I am an aspiring Front-End Developer</h1>
+                <h2 class="title-sub">&lt!-- finding magic in coding since September 2019 --&gt</h2>
+                <a href="mailto:kitsunenekofox@gmail.com"><button role="button" class="contact-button">Contact Me</button></a>
+        </header>
+         <!-- About me screen -->
+        <section id="js-about">
+            <div class="photo box">
+                 <img alt="Profile photo" src="Assets/profile.jpg">
             </div>
-          </section>
-    
-         <section class="find box">
-             <h2>Find me Here</h2>
-             <ul>
-                <li><img alt="linkedIn"src="social"/></li>
-                 <li><img alt="Github"src="social"/></li>
+            <div class="about box">
+                <h2>About</h2>
+                <div class="about-me">
+                    Welcome to my page! I am a student at Thinkful's Full Stack Flex programme.
+                    I am passionate about new technologies, coding, art and UX/UI. Working code is a magical experience for me, nothing can surpass the boost that I recieve with every coding problem which I get to solve. 
+                    <span class="text-style">My other passions in life are design and art, which I love to explore and convey also within my coding projects.
+                    What I do when I do not code? ... I run, as fast and as far as I can.</span>
+                </div>
+                <div class="skills">Skills
+                    <ul class= "style-list">
+                        <li><span class= "style-list markup">&lt&gt</span> HTML</li>
+                        <li><span class= "style-list styling">#</span> CSS, SCSS</li>
+                        <li><span class= "style-list script">JS</span> ES6, JQuery</li>
+                     </ul>
+                </div>
+            </div>
+        </section>
+           <!-- my projects screen  -->
+        <section class="work box" id="js-projects">
+            <h2>Work</h2>
+            <div class= "projects-box" aria-live="assertive">
+            </div>
+        </section>
+          <!-- Find my work -->
+        <section role="content-info" class="find box" id="js-find">
+            <h2>Find me Here</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/martynabulska/"><img class="social-img" alt="linkedIn"src="Assets/linkedin.svg"/></a></li>
+                <li><a href="https://github.com/Kitsunechin"><img class="social-img" alt="Github" src="Assets/cat.svg"/></a></li>
             </ul>
         </section>
-
     </main>
-    <footer role="content-info">Footer</footer>
+    <footer class="nav-logo-end"><div class="copy-right">&copyMartyna Bulska 2019</div>&lt/html&gt</footer>
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script src="projects.js"></script>
+ <script src="main.js"></script>
 </body>
 </html>
