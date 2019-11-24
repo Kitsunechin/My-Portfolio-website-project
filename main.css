@@ -9,6 +9,10 @@ body {
   line-height: 1.5;
   background-color: #282C34;
 }
+
+html {
+  scroll-behavior: smooth;
+}
   
 nav,
 footer {
@@ -23,6 +27,7 @@ nav {
   right: 0;
   z-index: 10;
 }
+
 li.nav-item {
   list-style-type: none;
   margin: 0 3 0 0%;
@@ -239,19 +244,19 @@ span.style-list {
   margin-bottom: 0;
 }
 
-.find li {
-  display: inline-block;
-}
+  .find li {
+    display: inline-block;
+  }
 
-.find.box {
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
+  .find.box {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
 
-.social-img {
-  height: 30px;
-  width: 30px;
-}
+  .social-img {
+    height: 30px;
+    width: 30px;
+  }
 
 @media only screen and (min-width: 1024px) {
   .photo-box {
@@ -282,6 +287,9 @@ span.style-list {
   }
   .nav-list {
     display: flex;
+  }
+  button.contact-button {
+    padding: 1.5em;
   }
 }
 

@@ -18,7 +18,7 @@ function addProject() {
     let getAll = "";
     for (let index = 0; index<projectArr; index++) {
       getAll+=
-        `<div class= "project"><img class="project-content" src="${project[index].img}" alt="project screenshot"/>
+        `<div class= "project"><a class="repo-live" href="${project[index].live}"><img class="project-content" src="${project[index].img}" alt="project screenshot"/></a>
         <div class ="project-content"><p><span class="style-text">Title: </span>${project[index].project}</p>
         <p><span class="style-text">Description: </span>${project[index].description}</p>
         <p><span class="style-text">Technologies used: </span>${project[index].technologies}
