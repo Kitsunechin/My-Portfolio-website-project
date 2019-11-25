@@ -16,7 +16,7 @@ html {
   
 nav,
 footer {
-  padding: 1% 0;
+  padding: 3% 0;
   background-color: #282C34;
 }
 
@@ -66,24 +66,43 @@ nav a:hover{
 .logo-start {
   margin-left: 3%;
 }
+
 .nav-logo-end {
   text-align: right;
   color: #D06872;
+  margin-right: 3%;
   font-size: 1em;
 }
 
 .photo img {
-  width: 25%;
+  /* width: 25%;
   position: relative;
   float: right;
   margin-top: -16%; 
   margin-right: 12%;
   font-size: 0.8em;
+  clip-path: circle(); */
+  position: absolute;
+  top: 4px; /* equal to border thickness */
+  left: 4px; /* equal to border thickness */
+  width: 245px; /* container height - (border thickness * 2) */
+  height: 245px; /* container height - (border thickness * 2) */
+  -webkit-clip-path: circle();
   clip-path: circle();
 }
 
 .photo.box {
-  padding: 0;
+  position: relative;
+  float: right;
+  margin-top: -10%; 
+  margin-right: 12%;
+  font-size: 0.8em;
+  width: 150px;
+  height: 150px;
+  background: #FAFAFA;
+  box-sizing: border-box;
+  -webkit-clip-path: circle();
+  clip-path: circle();
 }
 
 img.project-content {
@@ -102,7 +121,7 @@ img.project-content {
   border: none;
 }
 
-h1.title-main{
+h1.title-main {
   font-weight: 400;
 }
 
@@ -154,7 +173,8 @@ div.project-content {
 .copy-right {
   color: #A9B0BC;
   display: inline;
-  margin-right: 35%; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
@@ -244,25 +264,21 @@ span.style-list {
   margin-bottom: 0;
 }
 
-  .find li {
-    display: inline-block;
-  }
+.find li {
+  display: inline-block;
+}
 
-  .find.box {
-    padding-top: 2%;
-    padding-bottom: 2%;
-  }
+.find.box {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
-  .social-img {
-    height: 30px;
-    width: 30px;
-  }
+.social-img {
+  height: 30px;
+  width: 30px;
+}
 
 @media only screen and (min-width: 1024px) {
-  .photo-box {
-    top: 35%;
-  }
-
   .skills {
     display: relative;
     float: right;
@@ -282,9 +298,6 @@ span.style-list {
 }
 
 @media only screen and (min-width: 1200px) {
-  .photo-box {
-    top: 50%;
-  }
   .nav-list {
     display: flex;
   }
@@ -294,10 +307,23 @@ span.style-list {
 }
 
 @media only screen and (max-width: 640px) {
-  .photo-box {
-    top: 24%;
+  .photo img {
+    top: 3px; /* equal to border thickness */
+    left: 3px; /* equal to border thickness */
+    width: 190px; /* container height */
+    height: 190px;
   }
-    
+
+  .photo.box {
+    width: 197px;
+    height: 190px;
+    margin-right: 9%;
+  }
+
+  .about h2 {
+    margin-top: 25%;
+  }
+
   .nav-list {
     flex-direction: column;
     text-align: right;
@@ -312,7 +338,7 @@ span.style-list {
     display: block;
     margin-right: 2%;
     float: right;
-    font-size: 3vh;
+    font-size: 1em;
     border: none;
     outline: none;
     cursor: pointer;
@@ -323,10 +349,6 @@ span.style-list {
     padding-bottom: 25%;
   }
 
-  .copy-right {
-    margin-right: 8%;
-  }
-
   img.project-content {
     margin-right: 5%;
     margin-bottom: 0;
@@ -334,12 +356,20 @@ span.style-list {
 
 }
 
-@media only screen and (min-width: 768px) {
-  .photo-box {
-    top: 30%;
-    width: 200px;
-    height: 200px;
+@media only screen and (max-width: 768px) {
+  .photo img {
+    top: 3px; /* equal to border thickness */
+    left: 3px; /* equal to border thickness */
+    width: 190px; /* container height */
+    height: 190px;
   }
+
+  .photo.box {
+    width: 197px;
+    height: 190px;
+    margin-right: 9%;
+  }
+
   img.project-content {
     margin-bottom: 10%;
     margin-top: 5%;
