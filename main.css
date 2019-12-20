@@ -75,18 +75,11 @@ nav a:hover{
 }
 
 .photo img {
-  /* width: 25%;
-  position: relative;
-  float: right;
-  margin-top: -16%; 
-  margin-right: 12%;
-  font-size: 0.8em;
-  clip-path: circle(); */
   position: absolute;
-  top: 4px; /* equal to border thickness */
-  left: 4px; /* equal to border thickness */
-  width: 245px; /* container height - (border thickness * 2) */
-  height: 245px; /* container height - (border thickness * 2) */
+  top: 4px;
+  left: 4px; 
+  width: 245px;
+  height: 245px; 
   -webkit-clip-path: circle();
   clip-path: circle();
 }
@@ -190,7 +183,7 @@ header {
   border: none;
   font-size: 1em;
   margin-top: 4%;
-   padding: 4%;
+  padding: 1em;
   background-color: #D06872;
   color: #282C34;
 }
@@ -302,7 +295,7 @@ span.style-list {
     display: flex;
   }
   button.contact-button {
-    padding: 1.5em;
+    padding: 1.3em;
   }
 }
 
