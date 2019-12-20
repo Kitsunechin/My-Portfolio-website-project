@@ -31,5 +31,13 @@ const project = [
     live: "https://cdv.martynab.now.sh/",
     repo: "https://github.com/Kitsunechin/My-Portfolio-website-project"
     },
+    {
+        img: "Assets/Trail_API.png",
+        project: "Trail Finder",
+        description: "An app which uses geo API, trail API and openweather API for finding trails and weather for a given location",
+        technologies: "j-Query, ES6, API",
+        live: "https://kitsunechin.github.io/Trail_Finder/",
+        repo: "https://github.com/Kitsunechin/Trail_Finder"
+        },
 ];
 
