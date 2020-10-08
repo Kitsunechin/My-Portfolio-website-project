@@ -21,20 +21,21 @@ body {
   font-size: 20px;
   text-align: center;
   line-height: 1.5;
-  background-color: #282C34;
+  background-color: #0c1f2d;
 }
 
 html {
   scroll-behavior: smooth;
 }
   
-nav,
 footer {
   padding: 1% 0;
-  background-color: #282C34;
+  background-color: #0c1f2d;
 }
 
 nav {
+  padding: 1% 0;
+  background-color: #F7FEFF;
   position: fixed;
   top: 0;
   left: 0;
@@ -50,12 +51,12 @@ li.nav-item {
 
 nav a {
   text-decoration: none;
-  color: #A9B0BC;
+  color: #181A20;
 }
 
 nav a:hover{
-  background-color: #99C27C;
-  color: #282C34;
+  background-color: #424349;
+  color: white;
   border-radius: 3%;
   cursor: pointer;
 }
@@ -72,24 +73,23 @@ nav a:hover{
 
 .nav-logo,
 .logo-start {
-  color: #D06872;
+  color: #181A20;
   display:inline;
   font-size: 1em;
+
 }
 
 .logo-start {
-  margin-left: 3%;
+  margin-left: 0;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+  padding-left: 1em;
 }
 
-.nav-logo-end {
-  text-align: right;
-  color: #D06872;
-  margin-right: 3%;
-  font-size: 1em;
-}
 
 .photo img {
-  position: absolute;
+  float: right;
   top: 4px;
   left: 4px; 
   width: 245px;
@@ -98,19 +98,7 @@ nav a:hover{
   clip-path: circle();
 }
 
-.photo.box {
-  position: relative;
-  float: right;
-  margin-top: -10%; 
-  margin-right: 12%;
-  font-size: 0.8em;
-  width: 150px;
-  height: 150px;
-  background: #FAFAFA;
-  box-sizing: border-box;
-  -webkit-clip-path: circle();
-  clip-path: circle();
-}
+
 
 img.project-content {
   width: 30%;
@@ -135,6 +123,11 @@ h1.title-main {
 h2.title-sub {
   font-style: italic;
   font-weight: lighter;
+  display: block;
+  padding-top: 121px;
+  padding-left: 50px;
+  font-size: 150%;
+  color: white;
 }
 
 .text-style::before {
@@ -148,15 +141,15 @@ a.repo::before {
 } 
 
 .repo-live:hover {
-  background-color: #99C27C;
+  background-color: #424349;
   font-weight: bold;
   text-decoration: none;
-  color: #282C34;
+  color: white;
   cursor: pointer;
 }
 
 .repo-live {
-  color: #99C27C;
+  color: #071c91;
   text-decoration: none;
 }
 
@@ -226,12 +219,12 @@ button.contact-button:hover {
 section {
   min-height: 200px;
   padding: 6% 0;
-  background-color: #282C34;
+  background-color: #0c1f2d;
   color: #A9B0BC;
 }
   
 section:nth-child(even) {
-  background-color: #FAFAFA;
+  background-color: #6CC0E6;
   color: #282C34;
 }
 .box {
