@@ -71,12 +71,10 @@ nav a:hover{
   float: right;
 }
 
-.nav-logo,
-.logo-start {
-  color: #181A20;
+.nav-logo {
+  color: white;
   display:inline;
   font-size: 1em;
-
 }
 
 .logo-start {
@@ -90,14 +88,12 @@ nav a:hover{
 
 .photo img {
   float: right;
-  top: 4px;
-  left: 4px; 
+  margin-top: 35px; 
   width: 245px;
   height: 245px; 
   -webkit-clip-path: circle();
   clip-path: circle();
 }
-
 
 
 img.project-content {
@@ -269,6 +265,12 @@ span.style-list {
 .markup {
   color: #D06872;
 }
+.react {
+  color: #61DAFB;
+}
+.node {
+  color: #3D863E;
+}
 
 .find ul {
   text-align: left;
@@ -309,6 +311,7 @@ span.style-list {
 }
 
 @media only screen and (min-width: 1200px) {
+
   .nav-list {
     display: flex;
   }
@@ -317,12 +320,18 @@ span.style-list {
   }
 }
 
+@media only screen and (max-width: 1120px) {
+
+  img {
+    margin: 60px;
+  }
+}
+
 @media only screen and (max-width: 640px) {
-  .photo img {
-    top: 3px; /* equal to border thickness */
-    left: 3px; /* equal to border thickness */
-    width: 190px; /* container height */
+   img { 
+    width: 190px;
     height: 190px;
+    margin: -70px;
   }
 
   .photo.box {
@@ -370,7 +379,8 @@ span.style-list {
 @media only screen and (max-width: 768px) {
   .photo img {
     top: 3px; /* equal to border thickness */
-    left: 3px; /* equal to border thickness */
+    left: 3px;
+    margin: -70px; /* equal to border thickness */
     width: 190px; /* container height */
     height: 190px;
   }
