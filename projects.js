@@ -1,6 +1,6 @@
 const project = [
     {
-    img: "Assets/Quiz.png",
+    img: "images/quiz.png",
     project: "Quiz App",
     description: "A simple quiz application developed for my project at Thinkful",
     technologies:  "mobile-first design and JQuery",
@@ -8,7 +8,7 @@ const project = [
     repo: "https://github.com/Kitsunechin/jQuery-Quiz-app"
     },
     {
-    img: "Assets/WeatherAPI.png",
+    img: "images/weather-api.png",
     project: "Weather Forecast API",
     description: "Web app developed with API from openweather",
     technologies:  "ES6, API",
@@ -16,7 +16,7 @@ const project = [
     repo: "https://github.com/Kitsunechin/Weather-API"   
     },
     {
-    img: "Assets/Movie.png",
+    img: "images/movie.png",
     project: "Booking App",
     description: "Web app for booking movie tickets",
     technologies:  "ES6, SCSS",
@@ -24,7 +24,7 @@ const project = [
     repo: "https://github.com/Kitsunechin/Movie_app"   
     },
     {
-    img: "Assets/Portfolio.png",
+    img: "images/portfolio.png",
     project: "Portfolio website",
     description: "A simple photography website with routing and photo gallery, contact form and location google API",
     technologies: "Angular, CSS",
@@ -32,12 +32,12 @@ const project = [
     repo: "https://github.com/Kitsunechin/My-Portfolio-website-project"
     },
     {
-        img: "Assets/Trail_API.png",
+        img: "images/trail-api.png",
         project: "Trail Finder",
         description: "An app which uses geo API, trail API and openweather API for finding trails and weather for a given location",
         technologies: "j-Query, ES6, API",
         live: "https://kitsunechin.github.io/Trail_Finder/",
         repo: "https://github.com/Kitsunechin/Trail_Finder"
-        },
+    },
 ];
 

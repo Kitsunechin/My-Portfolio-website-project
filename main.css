@@ -171,10 +171,17 @@ div.project-content {
 }
 
 header {
-  padding: 0 5% 17% 0;
+  /* padding: 0 5% 17% 0;
   text-align: left;
-  margin-left: 10%;
+  margin-left: 10%; */
   color: #A9B0BC;
+  background-image: url("images/hero-magic.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 700px;
+  width: 100%;
+  display: block;
 }
 
 .contact-button {
