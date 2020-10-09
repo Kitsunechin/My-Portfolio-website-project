@@ -39,5 +39,21 @@ const project = [
         live: "https://kitsunechin.github.io/Trail_Finder/",
         repo: "https://github.com/Kitsunechin/Trail_Finder"
     },
+    {
+        img: "images/trippster.png",
+        project: "Trippster",
+        description: "An app which allows users to add countries to their bucket lists along with the notes on the trip",
+        technologies: "React, Node.js, SQL database",
+        live: "https://search-for-country-to-visit-casptone-client.vercel.app/",
+        repo: "https://github.com/Kitsunechin/search-for-country-to-visit-casptone-client"
+    },
+    {
+        img: "images/fitter.png",
+        project: "Fitter",
+        description: "An app which allows users to track their exercie routine and awrds medals for keeping your routine",
+        technologies: "React, Node.js, SQL database",
+        live: "https://exercise-tracker-capstone-client.vercel.app/",
+        repo: "https://github.com/Kitsunechin/exercise-tracker-capstone-client"
+    },
 ];
 
