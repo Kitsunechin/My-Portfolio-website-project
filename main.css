@@ -89,8 +89,8 @@ nav a:hover{
 .photo img {
   float: right;
   margin-top: 35px; 
-  width: 245px;
-  height: 245px; 
+  width: 300px;
+  height: 400px; 
   -webkit-clip-path: circle();
   clip-path: circle();
 }
@@ -330,7 +330,7 @@ span.style-list {
 @media only screen and (max-width: 640px) {
    img { 
     width: 190px;
-    height: 190px;
+    height: 350px;
     margin: -70px;
   }
 
@@ -382,7 +382,7 @@ span.style-list {
     left: 3px;
     margin: -70px; /* equal to border thickness */
     width: 190px; /* container height */
-    height: 190px;
+    height: 250px;
   }
 
   .photo.box {
