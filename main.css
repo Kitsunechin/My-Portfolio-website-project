@@ -100,6 +100,7 @@ img.project-content {
   width: 30%;
   float: left;
   margin-right: 10%;
+  margin-top: 2%;
   opacity: 0.96;
   border-radius: 8px;
   border: 1px solid #ddd;
@@ -107,9 +108,19 @@ img.project-content {
   padding: 5px; 
 }
 
+.project-box {
+  text-align: left;
+  margin-top: 5rem;
+}
+
 .break-clear {
   clear: both;
   border: none;
+}
+
+.button-box{
+  display: flex;
+  flex-direction: row;
 }
 
 h1.title-main {
@@ -121,7 +132,6 @@ h2.title-sub {
   font-weight: lighter;
   display: block;
   padding-top: 121px;
-  padding-left: 50px;
   font-size: 150%;
   color: white;
 }
@@ -145,12 +155,21 @@ a.repo::before {
 }
 
 .repo-live {
-  color: #071c91;
   text-decoration: none;
 }
 
+.live, .repo {
+  background-color: rgb(48, 145, 172);
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.repo {
+  margin-left: 14rem;
+}
+
 .style-text {
-  text-transform: uppercase;
   font-weight: bold;
 }
 
@@ -233,9 +252,18 @@ section:nth-child(even) {
   text-align: left;
 }
 
-h2 {
+h2.blue {
   text-align: left; 
   margin-top: 0;
+  color: #61DAFB;
+  font-size: 4rem;
+}
+
+h2.dark {
+  text-align: left; 
+  margin-top: 0;
+  color: #0D1F2D;
+  font-size: 4rem;
 }
 
 .skills {
@@ -254,24 +282,6 @@ span.style-list {
   font-weight: bolder;
 }
 
-.script {
-  color: rgb(189, 189, 30);
-}
-
-.styling {
-  color: rgb(14, 178, 243);
-}
-
-.markup {
-  color: #D06872;
-}
-.react {
-  color: #61DAFB;
-}
-.node {
-  color: #3D863E;
-}
-
 .find ul {
   text-align: left;
   margin-bottom: 0;
@@ -287,8 +297,48 @@ span.style-list {
 }
 
 .social-img {
-  height: 30px;
-  width: 30px;
+  height: 60px;
+  width: 60px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+.wrapper{
+  width: 75%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  font-size: 16px;
+  text-align: center;
+  color: #CCC;
+}
+
+.figure-skills {
+  margin-left: 0;
+  margin-right: 0;
+  height: 80px;
+  width: 80px;
+}
+
+.html {
+  padding-top: 3.5px;
 }
 
 @media only screen and (min-width: 1024px) {
