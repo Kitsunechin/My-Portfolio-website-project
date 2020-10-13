@@ -72,9 +72,10 @@ nav a:hover{
 }
 
 .nav-logo {
-  color: white;
+  color: #000000;
   display:inline;
   font-size: 1em;
+  background-color: #F7FEFF;
 }
 
 .logo-start {
@@ -149,7 +150,7 @@ h2.title-sub {
 }
 
 .live, .repo {
-  background-color: rgb(48, 145, 172);
+  background-color: #43597A;
   color: white;
   border-radius: 1rem;
   padding: 1rem;
