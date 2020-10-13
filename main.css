@@ -333,10 +333,11 @@ section.skills .skills-container img {
   .project-content {
     float: right;
     margin: 0;
+    float: left
   }
 
   img.project-content {
-    margin-bottom: 1%;
+    margin-bottom: 0;
     float: left;
   }
 } 
@@ -444,6 +445,7 @@ section.skills .skills-container img {
   img.project-content {
     margin-bottom: 10%;
     margin-top: 5%;
+    margin-bottom: 2%
   }
   }
 
