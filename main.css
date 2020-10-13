@@ -235,6 +235,10 @@ section:nth-child(even) {
   text-align: left;
 }
 
+.about {
+  margin-bottom: 5%
+}
+
 h2 {
   text-align: left; 
   margin-top: 0;
@@ -257,7 +261,7 @@ span.style-list {
 }
 
  .project-content{
-  margin-top: 10%
+  margin-top: 5%
 }
 
 .find ul {
