@@ -301,7 +301,7 @@ h2.dark {
 
 /* section skills */
 
-skills {
+.skills {
   width: 100%
 }
 
@@ -335,7 +335,19 @@ section.skills .skills-container img {
 .skills-container img {
   width: 15%
 }
+.skills-container {
+  display: grid;
+  flex-flow: column wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 1rem 1rem;
+}
+
+.figure-skills img {
+  width: 100px;
+}
 /* section skills */
+
 @media only screen and (max-width: 927px) {
   .project-content {
     float: right;
@@ -346,6 +358,11 @@ section.skills .skills-container img {
   img.project-content {
     margin-bottom: 0;
     float: left;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-direction: row;
   }
 } 
 
