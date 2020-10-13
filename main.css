@@ -235,8 +235,10 @@ section:nth-child(even) {
   text-align: left;
 }
 
-.about {
-  margin-bottom: 5%
+section.about {
+  margin-bottom: -10%;
+  padding-top:0;
+
 }
 
 h2 {
@@ -358,6 +360,10 @@ section.skills .skills-container img {
     position: absolute;
     width: 40%;
     left: 10%;
+  }
+
+  .about {
+    margin-bottom: 25%
   }
 
   div.about {
