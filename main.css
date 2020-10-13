@@ -98,6 +98,7 @@ nav a:hover{
 
 img.project-content {
   width: 30%;
+  margin-top:5%;
   float: left;
   margin-right: 10%;
   opacity: 0.96;
@@ -129,11 +130,6 @@ h2.title-sub {
 .text-style::before {
   content: "\A"; 
   white-space: pre-line; 
-}
-
-a.repo::before { 
-  content: "\A"; 
-  white-space: pre; 
 } 
 
 .repo-live:hover {
