@@ -338,7 +338,7 @@ section.skills .skills-container img {
 .skills-container {
   display: grid;
   flex-flow: column wrap;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
   margin: 1rem 1rem;
 }
@@ -387,6 +387,13 @@ section.skills .skills-container img {
     padding-bottom: 25%;
   }
 
+  .skills-container {
+    display: grid;
+    flex-flow: column wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 1rem 1rem;
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -397,8 +404,15 @@ section.skills .skills-container img {
   button.contact-button {
     padding: 1.3em;
   }
-}
+  .skills-container {
+    display: grid;
+    flex-flow: column wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 1rem 1rem;
 
+}
+}
 @media only screen and (max-width: 1120px) {
 
   img {
