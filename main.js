@@ -20,6 +20,7 @@ function addProject() {
       getAll+=
         `<div class= "project">
         <a class="repo-live" href="${project[index].live}" target="_blank"><img class="project-content" src="${project[index].img}" alt="project screenshot"/></a>
+        </div>
         <div class ="project-content">
         <p class="title">${project[index].project}</p>
         <p><span class="style-text">Description: </span>${project[index].description}</p>
@@ -29,8 +30,8 @@ function addProject() {
         <a class="repo-live live" href="${project[index].live}" target="_blank">demo</a>
         <a class="repo-live repo" href="${project[index].repo}" target="_blank">code</a>
         </div>
-        </div>
-        <hr class="break-clear">`
+        <hr class="break-clear">
+        <br>`
     }
     $(".projects-box").html(getAll);
 };
