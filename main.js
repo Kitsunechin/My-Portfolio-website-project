@@ -20,14 +20,17 @@ function addProject() {
       getAll+=
         `<div class= "project">
         <a class="repo-live" href="${project[index].live}" target="_blank"><img class="project-content" src="${project[index].img}" alt="project screenshot"/></a>
-        <div class ="project-box">
+        <div class ="project-content">
         <p class="title">${project[index].project}</p>
         <p><span class="style-text">Description: </span>${project[index].description}</p>
-        <p><span class="style-text"></span>${project[index].technologies}
-        <div class="button-box">
-        <p><a class="repo-live live" href="${project[index].live}" target="_blank">live version</a>
-        <p><a class="repo-live repo" href="${project[index].repo}" target="_blank">repository</a><p>
-        </div></div></div><hr class="break-clear">`
+        <br>
+        <p class="technologies">${project[index].technologies}</p>
+        <br>
+        <a class="repo-live live" href="${project[index].live}" target="_blank">demo</a>
+        <a class="repo-live repo" href="${project[index].repo}" target="_blank">code</a>
+        </div>
+        </div>
+        <hr class="break-clear">`
     }
     $(".projects-box").html(getAll);
 };

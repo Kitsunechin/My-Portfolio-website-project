@@ -2,7 +2,7 @@ const project = [
     {
         img: "images/fitter.png",
         project: "Fitter",
-        description: "An app which allows users to track their exercie routine and awrds medals for keeping your routine",
+        description: "An app which allows users to track their exercie routine and awords medals for keeping your routine",
         technologies: "React, Node.js, SQL database, ES6, HTML5, CSS3",
         live: "https://exercise-tracker-capstone-client.vercel.app/",
         repo: "https://github.com/Kitsunechin/exercise-tracker-capstone-client"
