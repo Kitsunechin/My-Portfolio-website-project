@@ -394,6 +394,7 @@ section.skills .skills-container img {
     grid-gap: 1rem;
     margin: 1rem 1rem;
 
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -410,8 +411,7 @@ section.skills .skills-container img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1rem;
     margin: 1rem 1rem;
-
-}
+  }
 }
 @media only screen and (max-width: 1120px) {
 
@@ -489,7 +489,8 @@ section.skills .skills-container img {
     margin-top: 5%;
     margin-bottom: 2%
   }
-  }
+  
+}
 
   
 
