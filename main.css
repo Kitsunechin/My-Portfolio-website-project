@@ -368,12 +368,6 @@ section.skills .skills-container img {
 }
 
 @media only screen and (min-width: 927px) {
-  .project-content {
-    float: right;
-    margin: 0;
-    float: left
-  }
-
   img.project-content {
     margin-bottom: 0;
     float: left;
@@ -426,14 +420,25 @@ section.skills .skills-container img {
     margin: 1rem 1rem;
   }
 }
-@media only screen and (max-width: 1120px) {
+@media only screen and (max-width: 1138px) {
 
   img {
     margin: 60px;
   }
+
+  .project-content {
+    float: right;
+    margin: 0;
+    float: left
+  }
 }
 
 @media only screen and (max-width: 640px) {
+  .project-content {
+    float: right;
+    margin: 0;
+    float: left
+  }
    .photo img { 
     width: 190px;
     height: 350px;
@@ -508,6 +513,12 @@ section.skills .skills-container img {
     margin-bottom: 10%;
     margin-top: 5%;
     margin-bottom: 2%
+  }
+
+  .project-content {
+    float: right;
+    margin: 0;
+    float: left
   }
   
 }
