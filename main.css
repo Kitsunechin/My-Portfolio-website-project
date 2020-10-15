@@ -86,6 +86,12 @@ nav a:hover{
   padding-left: 1em;
 }
 
+.photo {
+  display: inline-block;
+  width: 20%;
+  float: right;
+
+}
 
 .photo img {
   float: right;
@@ -351,6 +357,9 @@ section.skills .skills-container img {
   width: 100px;
 }
 /* section skills */
+.social-box ul {
+  text-align:center;
+}
 
 @media only screen and (max-width: 927px) {
   .project-content {
@@ -378,7 +387,6 @@ section.skills .skills-container img {
   }
 
   .about-me {
-    position: absolute;
     width: 40%;
     left: 10%;
   }
