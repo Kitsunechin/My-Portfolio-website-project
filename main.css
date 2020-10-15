@@ -253,16 +253,16 @@ span.style-list {
   margin-top: 5%
 }
 
-.find ul {
+.contact ul {
   text-align: left;
   margin-bottom: 0;
 }
 
-.find li {
+.contact li {
   display: inline-block;
 }
 
-.find.box {
+.contact.box {
   padding-top: 2%;
   padding-bottom: 2%;
 }
