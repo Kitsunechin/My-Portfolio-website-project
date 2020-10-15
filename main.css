@@ -151,6 +151,7 @@ h2.title-sub {
 
 .title {
   font-size: 150%;
+  padding-top: 5%
 }
 
 .live, .repo {
