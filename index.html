@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,500&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ab8ac85df2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- navigation -->
@@ -16,11 +17,11 @@
         <div class ="logo-start">Martyna Bulska</div>
         <button role="button" class="button-menu" id="js-button-menu" aria-expanded="false" aria-controls="more-content"><span class="nav-logo">&ltnav/&gt</span></button>
         <ul class="nav-list" aria-hidden="true">
-            <li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-top">Home/&nbsp</a></li>
-            <li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-about">About/&nbsp</a></li>
-            <li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-projects">Work/&nbsp</a></li>
-            <li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-skills">Skills/&nbsp</a></li>
-            <li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-find">Contact/</a></li>
+            <i class="fas fa-home"></i><li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-top">Home/&nbsp</a></li>
+            <i class="fas fa-user-circle"></i><li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-about">About/&nbsp</a></li>
+            <i class="fas fa-briefcase"></i><li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-projects">Work/&nbsp</a></li>
+            <i class="fas fa-cog"></i><li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-skills">Skills/&nbsp</a></li>
+            <i class="fas fa-address-book"></i><li class="nav-item" id="js-nav-item"><a class="js-nav-link" href="#js-find">Contact/</a></li>
         </ul>            
     </nav>
     <header class="navigation" id="js-top">   
@@ -39,7 +40,7 @@
                 <div class="photo box">
                     <img alt="Profile photo" src="images/profile.png">
                </div>
-                <h2 class="blue">About</h2>
+               <h2 class="blue"><i class="fas fa-user-circle"></i>About</h2>
                 <div class="about-me">
                     <p>I am passionate about new technologies, coding, art and UX/UI.</p> 
                     <p>A working code is a magical experience for me, nothing can surpass the boost that I receive with every coding problem which I get to solve.</p> 
@@ -49,13 +50,13 @@
         </section>
            <!-- my projects screen  -->
         <section class="work box" id="js-projects">
-            <h2 class="dark">Work</h2>
+            <h2 class="dark"><i class="fas fa-briefcase"></i>Work</h2>
             <div class= "projects-box" aria-live="assertive">
             </div>
         </section>
           <!--my skills-->
           <section class="skills box" id="js-skills" role="region">
-                <h2 class="blue">Skills</h2>
+                <h2 class="blue"><i class="fas fa-cog"></i>Skills</h2>
                 <div class="skills-container">
                     <figure class="figure-skills">
                         <img src="images/html.png" alt="HTML"/>
@@ -98,7 +99,7 @@
         </section>
           <!-- Find my work -->
         <section role="content-info" class="find box" id="js-find">
-            <h2 class="dark">Contact</h2>
+            <h2 class="dark"><i class="fas fa-address-book"></i>Contact</h2>
             <div class= "social-box">
                 <ul>
                     <li><a href="https://www.linkedin.com/in/martynabulska/"><img class="social-img" alt="linkedIn"src="images/linkedin.svg"/></a></li>

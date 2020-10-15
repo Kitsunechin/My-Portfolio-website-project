@@ -361,6 +361,11 @@ section.skills .skills-container img {
   text-align:center;
 }
 
+.fas {
+  margin-top: 1%;
+  margin-right: 1%;
+}
+
 @media only screen and (max-width: 927px) {
   .project-content {
     float: right;
