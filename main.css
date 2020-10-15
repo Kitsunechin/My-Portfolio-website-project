@@ -356,6 +356,7 @@ section.skills .skills-container img {
   width: 100px;
 }
 /* section skills */
+
 .social-box ul {
   text-align:center;
 }
@@ -472,6 +473,14 @@ section.skills .skills-container img {
   img.project-content {
     margin-right: 5%;
     margin-bottom: 0;
+  }
+
+  .skills-container {
+    display: grid;
+    flex-flow: column wrap;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 1rem 1rem;
   }
 
 }
