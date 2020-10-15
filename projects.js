@@ -2,7 +2,7 @@ const project = [
     {
         img: "images/fitter.png",
         project: "Fitter",
-        description: "Are you looking for an app that will track your daily exercise routine? <br /> Fitter will help you achive it by saving your exercises and awarding your strives",
+        description: "Are you looking for an app that will track your daily exercise routine? <br /> Fitter will help you achieve it by saving your exercises and awarding your strives",
         technologies: "HTML, CSS, JavaScript, React, Vercel, Node.js, Express, Mocha, Chai, Postgres, Heroku",
         live: "https://exercise-tracker-capstone-client.vercel.app/",
         repo: "https://github.com/Kitsunechin/exercise-tracker-capstone-client"
@@ -26,14 +26,14 @@ const project = [
     {
         img: "images/portfolio.png",
         project: "Photography Portfolio",
-        description: "Are also a organizing freak when it comes to your photos? <br/> You can now store all your photos in a prtfolio format",
+        description: "Are also a organizing freak when it comes to your photos? <br/> You can now store all your photos in a portfolio format",
         technologies: "HTML, CSS, JavaScript, Angular",
         live: "https://cdv.martynab.now.sh/",
         repo: "https://github.com/Kitsunechin/My-Portfolio-website-project"
     }, {
         img: "images/movie.png",
         project: "Booking App",
-        description: "Savig your time when buyig movie tickets? <br />This app allows you to book tickets online without standing for hours in a line",
+        description: "Saving your time when buying movie tickets? <br />This app allows you to book tickets online without standing for hours in a line",
         technologies: "HTML, SCSS, JavaScript",
         live: "https://kitsunechin.github.io/Movie_app",
         repo: "https://github.com/Kitsunechin/Movie_app"
