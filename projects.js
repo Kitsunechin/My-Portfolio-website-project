@@ -10,7 +10,7 @@ const project = [
     {
         img: "images/trippster.png",
         project: "Trippster",
-        description: "Have you ever wanted to save your must see places to a bucket list and track places you want to visit? <br /> This app will help you stay organised by saving your places as visited or a bucket list and let you stay on top of your traveling endavours",
+        description: "Have you ever wanted to save your must see places to a bucket list and track places you want to visit? <br /> Trippster will help you stay organised by saving your traveling endavours",
         technologies: "HTML, CSS, JavaScript, React, Vercel, Node.js, Express, Mocha, Chai, Postgres, Heroku",
         live: "https://search-for-country-to-visit-casptone-client.vercel.app/",
         repo: "https://github.com/Kitsunechin/search-for-country-to-visit-casptone-client"
