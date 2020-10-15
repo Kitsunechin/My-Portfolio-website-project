@@ -23,7 +23,7 @@ function addProject() {
         </div>
         <div class ="project-content">
         <p class="title">${project[index].project}</p>
-        <p><span class="style-text">Description: </span>${project[index].description}</p>
+        <p>${project[index].description}</p>
         <br>
         <p class="technologies">${project[index].technologies}</p>
         <br>
