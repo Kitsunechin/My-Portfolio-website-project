@@ -90,12 +90,10 @@ nav a:hover{
   display: inline-block;
   width: 20%;
   float: right;
-
 }
 
 .photo img {
-  float: right;
-  margin-top: 35px; 
+  float: right; 
   width: 300px;
   height: 400px; 
   -webkit-clip-path: circle();
@@ -237,7 +235,8 @@ section:nth-child(even) {
 }
 
 .about-me {
-  display: inline-block;
+  margin-top: 8%;
+  display: block;
   text-align: left;
 }
 
