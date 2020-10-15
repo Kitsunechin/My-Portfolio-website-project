@@ -46,7 +46,6 @@ nav {
 li.nav-item {
   list-style-type: none;
   margin: 0 3 0 0%;
-  font-size: 1em;
 }
 
 nav a {
@@ -74,16 +73,15 @@ nav a:hover{
 .nav-logo {
   color: #000000;
   display:inline;
-  font-size: 1em;
   background-color: #F7FEFF;
 }
 
 .logo-start {
-  margin-left: 0;
   font-style: italic;
   font-family: 'Montserrat', sans-serif;
   float: left;
-  padding-left: 1em;
+  padding-left: 1%;
+  padding-top: 1%;
 }
 
 .photo {
@@ -196,27 +194,6 @@ header {
   height: 700px;
   width: 100%;
   display: block;
-}
-
-.contact-button {
-  float: left;
-  border-radius: 5px;
-  border: none;
-  font-size: 1em;
-  margin-top: 4%;
-  padding: 1em;
-  background-color: #D06872;
-  color: #282C34;
-}
-  
-button.contact-button:hover {
-  background-color: #99C27C;
-  cursor: pointer;
-}
-
-.contact-button a {
-  text-decoration: none;
-  color: #282C34;
 }
 
 section {
@@ -339,7 +316,7 @@ section.skills .skills-container {
 }
 
 section.skills .skills-container img {
-    margin:1.5rem;
+    margin: 1.5rem;
 }
 
 .skills-container img {
@@ -405,7 +382,6 @@ section.skills .skills-container img {
 }
 
 @media only screen and (min-width: 1200px) {
-
   .nav-list {
     display: flex;
   }
