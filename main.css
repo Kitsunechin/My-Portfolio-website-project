@@ -366,7 +366,7 @@ section.skills .skills-container img {
   margin-right: 1%;
 }
 
-@media only screen and (max-width: 927px) {
+@media only screen and (min-width: 927px) {
   .project-content {
     float: right;
     margin: 0;
@@ -379,12 +379,15 @@ section.skills .skills-container img {
   }
   
   .skills-container {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    flex-flow: column wrap;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 1rem 1rem;
   }
 } 
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .skills {
     display: relative;
     float: right;

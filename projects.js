@@ -26,7 +26,7 @@ const project = [
     {
         img: "images/portfolio.png",
         project: "Photography Portfolio",
-        description: "Are also a organizing freak when it comes to your photos? <br/> You can now store all your photos in a portfolio format",
+        description: "Are you also an organizing freak when it comes to your photos? <br/> You can now store all your photos in a portfolio format",
         technologies: "HTML, CSS, JavaScript, Angular",
         live: "https://cdv.martynab.now.sh/",
         repo: "https://github.com/Kitsunechin/My-Portfolio-website-project"
