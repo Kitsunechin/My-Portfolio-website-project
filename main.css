@@ -472,17 +472,14 @@ section.skills .skills-container img {
 
 @media only screen and (max-width: 768px) {
   .photo img {
-    top: 3px; /* equal to border thickness */
-    left: 3px;
-    margin-top: -20px; /* equal to border thickness */
-    width: 200px; /* container height */
+    width: 200px;
     height: 200px;
   }
 
   .photo {
-    width: 197px;
-    height: 190px;
-    margin-right: 9%;
+    float: right;
+    width: 200px;
+    height: 200px;
   }
 
   img.project-content {
