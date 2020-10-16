@@ -84,18 +84,17 @@ nav a:hover{
   padding-top: 1%;
 }
 
-.photo {
+/* .photo {
   display: inline-block;
   width: 20%;
   float: right;
-}
+} */
 
 .photo img {
-  float: right; 
+  float: right;
   width: 300px;
-  height: 400px; 
-  -webkit-clip-path: circle();
-  clip-path: circle();
+  height: 300px; 
+  border-radius: 50%;
 }
 
 
@@ -415,15 +414,16 @@ section.skills .skills-container img {
     margin: 0;
     float: left
   }
+
    .photo img { 
-    width: 190px;
-    height: 350px;
-    margin: -70px;
+    width: 100px;
+    height: 100px;
+    margin: 70px;
   }
 
-  .photo.box {
-    width: 197px;
-    height: 190px;
+  .photo {
+    width: 100px;
+    height: 100px;
     margin-right: 9%;
   }
 
@@ -474,12 +474,12 @@ section.skills .skills-container img {
   .photo img {
     top: 3px; /* equal to border thickness */
     left: 3px;
-    margin: -70px; /* equal to border thickness */
-    width: 190px; /* container height */
-    height: 250px;
+    margin-top: -20px; /* equal to border thickness */
+    width: 200px; /* container height */
+    height: 200px;
   }
 
-  .photo.box {
+  .photo {
     width: 197px;
     height: 190px;
     margin-right: 9%;
