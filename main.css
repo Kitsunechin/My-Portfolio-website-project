@@ -416,16 +416,18 @@ section.skills .skills-container img {
   }
 
    .photo img { 
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 70px;
   }
 
   .photo {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin-right: 9%;
   }
+
+  
 
   .about h2 {
     margin-top: 25%;
@@ -472,8 +474,11 @@ section.skills .skills-container img {
 
 @media only screen and (max-width: 768px) {
   .photo img {
-    width: 200px;
-    height: 200px;
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-top: -98%;
+    margin-left: -20%
   }
 
   .photo {
@@ -492,6 +497,10 @@ section.skills .skills-container img {
     float: right;
     margin: 0;
     float: left
+  }
+
+  .about-me {
+    width: 100%
   }
   
 }
