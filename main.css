@@ -102,6 +102,9 @@ nav a:hover{
   align-items: center;
   flex-direction: row-reverse;
 }
+.about-me{
+  width: 50%
+}
 
 img.project-content {
   width: 30%;
