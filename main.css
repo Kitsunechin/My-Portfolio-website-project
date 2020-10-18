@@ -97,12 +97,6 @@ nav a:hover{
   border-radius: 50%;
 }
 
-.about-profile {
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-}
-
 .about-me{
   width: 50%
 }
