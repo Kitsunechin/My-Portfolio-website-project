@@ -322,6 +322,7 @@ h2.dark {
   clear: both;
   display: table;
 }
+
 section.skills .skills-container {
   width: 100%;
   margin-bottom: 1rem;
@@ -339,6 +340,7 @@ section.skills .skills-container img {
 .skills-container img {
   width: 15%
 }
+
 .skills-container {
   display: grid;
   flex-flow: column wrap;
