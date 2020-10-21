@@ -381,8 +381,8 @@ section.skills .skills-container img {
 
 @media only screen and (max-width: 1024px) {
   .skills {
-    display: relative;
-    float: right;
+    /* display: relative;
+    float: right; */
     font-weight: bolder;
   }
 
@@ -452,8 +452,6 @@ section.skills .skills-container img {
     height: 200px;
     margin-right: 9%;
   }
-
-  
 
   .about h2 {
     margin-top: 25%;
