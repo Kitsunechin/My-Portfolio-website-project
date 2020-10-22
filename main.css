@@ -17,6 +17,7 @@
 }
   
 body {
+  border: 3px solid white;
   font-family: 'Muli', sans-serif;
   font-size: 15px;
   text-align: center;
@@ -99,15 +100,6 @@ nav a:hover{
 
 .about-me{
   width: 50%
-}
-
-.project-image {
-  width: 100%;
-  opacity: 0.96;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px; 
 }
 
 .break-clear {
@@ -258,6 +250,17 @@ span.style-list {
   margin-right: 1%;
 }
 
+.project-image-wrapper .project-image {
+  display: block;
+  margin: 0;
+  width: 100%;
+  opacity: 0.96;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px; 
+}
+
 .project-content .technologies span {
   display: inline-block;
   padding: 5px;
@@ -363,7 +366,48 @@ section.skills .skills-container img {
   margin-right: 1%;
 }
 
-@media only screen and (min-width: 927px) {
+/*large desktop*/
+@media only screen and (max-width: 1600px) {
+  body {
+      border: 3px solid yellow;
+  }
+}
+
+/*iPad lanscape / small laptop*/
+@media only screen and (max-width: 1024px) {
+  body {
+      border: 3px solid blue;
+  }
+}
+
+/*iPad potrait*/
+@media only screen and (max-width: 768px) {
+  body {
+      border: 3px solid red;
+  }
+}
+
+/*Android landscape*/
+@media only screen and (max-width: 640px) {
+  body {
+      border: 3px solid brown;
+  }
+}
+
+/*iPhone landscape*/
+@media only screen and (max-width: 480px) {
+  body {
+      border: 3px solid green;
+  }
+}
+
+/*iPhone portrait*/
+@media only screen and (max-width: 320px) {
+  body {
+      border: 3px solid purple;
+  }
+}
+/* @media only screen and (min-width: 927px) {
   
   .skills-container {
     display: grid;
@@ -497,7 +541,7 @@ section.skills .skills-container img {
     width: 100%
   }
   
-}
+} */
 
   
 
