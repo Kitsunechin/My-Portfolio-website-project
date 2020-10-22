@@ -263,7 +263,7 @@ span.style-list {
   display: inline-block;
   padding: 5px;
   border: 1px solid black;
-  margin-bottom: 2%;
+  margin-top: 0.5%;
 }
 
 .contact ul {
@@ -408,9 +408,11 @@ section.skills .skills-container img {
   .nav-list {
     display: flex;
   }
+
   button.contact-button {
     padding: 1.3em;
   }
+
   .skills-container {
     display: grid;
     flex-flow: column wrap;
