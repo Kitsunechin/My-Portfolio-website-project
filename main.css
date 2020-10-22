@@ -241,13 +241,17 @@ span.style-list {
 
  .project-content, .project-image-wrapper {
   display: inline-block;
-  width: 49%;
   padding: 20px;
   vertical-align: top;
 }
 
+.project-content {
+  width: 49%;
+}
+
 .project-image-wrapper {
   margin-right: 1%;
+  width: 49%;
 }
 
 .project-image-wrapper .project-image {
