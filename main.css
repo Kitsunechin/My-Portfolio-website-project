@@ -98,10 +98,6 @@ nav a:hover{
   border-radius: 50%;
 }
 
-.about-me{
-  width: 50%
-}
-
 .break-clear {
   clear: both;
   border: none;
@@ -146,7 +142,10 @@ h2.title-sub {
   background-color: #43597A;
   color: white;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 0.7rem 1rem;
+  display: inline-block;
+  margin: 1%;
+  width: auto;
 }
 
 .projects-box {
@@ -193,12 +192,14 @@ section:nth-child(even) {
   background-color: #6CC0E6;
   color: #282C34;
 }
+
 .box {
   display: block;
   padding: 10%;
 }
 
 .about-me {
+  width: 50%;
   margin-top: 8%;
   display: block;
   text-align: left;
@@ -217,6 +218,16 @@ section.about-profile {
 h2 {
   text-align: left; 
   margin-top: 0;
+}
+
+h2.blue {
+  color: #61DAFB;
+  font-size: 200%;
+}
+
+h2.dark {
+  color: #0D1F2D;
+  font-size: 200%;
 }
 
 .skills {
@@ -267,9 +278,9 @@ span.style-list {
 
 .project-content .technologies span {
   display: inline-block;
-  padding: 5px;
+  padding: 5px 10px;
   border: 1px solid black;
-  margin-top: 0.5%;
+  margin: 1%;
 }
 
 .contact ul {
@@ -294,20 +305,6 @@ span.style-list {
   height: 60px;
   width: 60px;
   margin: 3.7rem;
-}
-
-h2.blue {
-  text-align: left; 
-  margin-top: 0;
-  color: #61DAFB;
-  font-size: 200%;
-}
-
-h2.dark {
-  text-align: left; 
-  margin-top: 0;
-  color: #0D1F2D;
-  font-size: 200%;
 }
 
 /* section skills */
@@ -382,6 +379,17 @@ section.skills .skills-container img {
   body {
       border: 3px solid blue;
   }
+
+  .photo img {
+    width: 270px;
+    height: 270px;
+  }
+
+  .project-content, .project-image-wrapper {
+    display: block;
+    width: 99%;
+    margin: 0;
+  }
 }
 
 /*iPad potrait*/
@@ -389,12 +397,34 @@ section.skills .skills-container img {
   body {
       border: 3px solid red;
   }
+
+  .photo img {
+    width: 230px;
+    height: 230px;
+  }
+
 }
 
 /*Android landscape*/
 @media only screen and (max-width: 640px) {
   body {
       border: 3px solid brown;
+  }
+  .photo {
+    display:block;
+    width: 100%;
+    float: none;
+  }
+
+  .photo img {
+    width: 300px;
+    height: 300px;
+    float: none;
+  }
+
+  .about-me {
+    width: 100%;
+    display: block;
   }
 }
 
