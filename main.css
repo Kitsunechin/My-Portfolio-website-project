@@ -18,7 +18,7 @@
   
 body {
   font-family: 'Muli', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   line-height: 1.5;
   background-color: #0c1f2d;
@@ -101,11 +101,8 @@ nav a:hover{
   width: 50%
 }
 
-img.project-content {
-  width: 30%;
-  margin-top:5%;
-  float: left;
-  margin-right: 10%;
+.project-image {
+  width: 100%;
   opacity: 0.96;
   border-radius: 8px;
   border: 1px solid #ddd;
@@ -151,7 +148,6 @@ h2.title-sub {
 
 .title {
   font-size: 150%;
-  padding-top: 5%
 }
 
 .live, .repo {
@@ -159,10 +155,6 @@ h2.title-sub {
   color: white;
   border-radius: 1rem;
   padding: 1rem;
-}
-
-div.project-content {
-  text-align: left;
 }
 
 .projects-box {
@@ -255,8 +247,15 @@ span.style-list {
   padding-right: 5px;
 }
 
- .project-content{
-  margin-top: 5%
+ .project-content, .project-image-wrapper {
+  display: inline-block;
+  width: 49%;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.project-image-wrapper {
+  margin-right: 1%;
 }
 
 .project-content .technologies span {
@@ -365,10 +364,6 @@ section.skills .skills-container img {
 }
 
 @media only screen and (min-width: 927px) {
-  img.project-content {
-    margin-bottom: 0;
-    float: left;
-  }
   
   .skills-container {
     display: grid;
@@ -427,19 +422,9 @@ section.skills .skills-container img {
     margin: 60px;
   }
 
-  .project-content {
-    float: right;
-    margin: 0;
-    float: left
-  }
 }
 
 @media only screen and (max-width: 640px) {
-  .project-content {
-    float: right;
-    margin: 0;
-    float: left
-  }
 
    .photo img { 
     width: 200px;
@@ -483,11 +468,6 @@ section.skills .skills-container img {
     padding-bottom: 25%;
   }
 
-  img.project-content {
-    margin-right: 5%;
-    margin-bottom: 0;
-  }
-
   .skills-container {
     display: grid;
     flex-flow: column wrap;
@@ -511,18 +491,6 @@ section.skills .skills-container img {
     float: right;
     width: 200px;
     height: 200px;
-  }
-
-  img.project-content {
-    margin-bottom: 10%;
-    margin-top: 5%;
-    margin-bottom: 2%
-  }
-
-  .project-content {
-    float: right;
-    margin: 0;
-    float: left
   }
 
   .about-me {
