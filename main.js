@@ -35,7 +35,6 @@ function addProject() {
                 <i class="fa fa-code"></i>code
             </a>
         </div>
-        <hr class="break-clear">
         <br>`
     }
     $(".projects-box").html(getAll);
