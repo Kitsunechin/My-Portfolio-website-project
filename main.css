@@ -309,54 +309,27 @@ span.style-list {
 
 /* section skills */
 
-.skills {
+section.skills {
   width: 100%
-}
-
-.section-container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
-  clear: both;
-  display: block;
-  height: auto;
-}
-.section-container:after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 section.skills .skills-container {
   width: 100%;
-  margin-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
   text-align: center;
-}
-
-section.skills .skills-container img {
-    margin: 1.5rem;
-}
-
-.skills-container img {
-  width: 15%
-}
-
-.skills-container {
   display: grid;
   flex-flow: column wrap;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
-  margin: 1rem 1rem;
 }
 
-.figure-skills img {
-  width: 100px;
+section.skills .skills-container .figure-skills {
+  margin: 0;
 }
-/* section skills */
+
+section.skills .skills-container .figure-skills img {
+  width: 100%;
+}
 
 .social-box ul {
   text-align:center;
