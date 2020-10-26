@@ -385,10 +385,11 @@ section.skills .skills-container img {
     height: 270px;
   }
 
-  .project-content, .project-image-wrapper {
-    display: block;
-    width: 99%;
-    margin: 0;
+  .project-image-wrapper {
+    width: 33%;
+  }
+  .project-content {
+    width: 65%;
   }
 }
 
@@ -403,6 +404,11 @@ section.skills .skills-container img {
     height: 230px;
   }
 
+  .project-content, .project-image-wrapper {
+    display: block;
+    width: 99%;
+    margin: 0;
+  }
 }
 
 /*Android landscape*/
@@ -426,6 +432,7 @@ section.skills .skills-container img {
     width: 100%;
     display: block;
   }
+
 }
 
 /*iPhone landscape*/
