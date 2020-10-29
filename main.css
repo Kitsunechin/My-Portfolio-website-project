@@ -203,12 +203,12 @@ section.work .projects-box .project-image-wrapper .project-image {
 section.work .project-content .technologies span {
   display: inline-block;
   padding: 5px 10px;
-  border: 1px solid black;
+  border: 1px solid white;
   margin: 1%;
 }
 
 section.work .projects-box .project-content .live, .repo {
-  background-color: #43597A;
+  background-color: #61DAFB;
   color: white;
   border-radius: 1rem;
   padding: 0.7rem 1rem;

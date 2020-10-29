@@ -17,14 +17,49 @@
     <nav role="navigation" class="nav">
         <div class ="logo-start">Martyna Bulska</div>
         <ul class="nav-list" aria-hidden="true">
-            <li class="nav-item" id="js-nav-item"><i class="fas fa-home"></i><a class="js-nav-link" href="#js-top">Home</a></li>
-            <li class="nav-item" id="js-nav-item"><i class="fas fa-user-circle"></i><a class="js-nav-link" href="#js-about">About</a></li>
-            <li class="nav-item" id="js-nav-item"><i class="fas fa-briefcase"></i><a class="js-nav-link" href="#js-projects">Work</a></li>
-            <li class="nav-item" id="js-nav-item"><i class="fas fa-cog"></i><a class="js-nav-link" href="#js-skills">Skills</a></li>
-            <li class="nav-item" id="js-nav-item"><i class="fas fa-address-book"></i><a class="js-nav-link" href="#js-contact">Contact</a></li>
+            <li class="show-web-only nav-item" id="js-nav-item">
+                <i class="fas fa-home"></i>
+                <a class="js-nav-link" href="#js-top">Home</a>
+            </li>
+            <li class="show-web-only nav-item" id="js-nav-item">
+                <i class="fas fa-user-circle"></i>
+                <a class="js-nav-link" href="#js-about">About</a>
+            </li>
+            <li class="show-web-only nav-item" id="js-nav-item">
+                <i class="fas fa-briefcase"></i>
+                <a class="js-nav-link" href="#js-projects">Work</a>
+            </li>
+            <li class="show-web-only nav-item" id="js-nav-item">
+                <i class="fas fa-cog"></i>
+                <a class="js-nav-link" href="#js-skills">Skills</a>
+            </li>
+            <li class="show-web-only nav-item" id="js-nav-item">
+                <i class="fas fa-address-book"></i>
+                <a class="js-nav-link" href="#js-contact">Contact</a>
+            </li>
+            
+            <li class="show-print-only">
+                <a href="https://terabitbaci.github.io/portfolio/">Portfolio Page: terabitbaci.github.io/portfolio
+                </a>
+            </li>
+            <li class="show-print-only">
+                <a href="mailto:teresabacigalupi@gmail.com?Subject=Your Portfolio">
+                    <i class="fas fa-envelope"></i> TeresaBacigalupi@gmail.com
+                </a>
+            </li>
+            <li class="show-print-only">
+                <a href="https://github.com/terabitbaci">
+                    <i class="fab fa-github"></i> GitHub.com/TerabitBaci
+                </a>
+            </li>
+            <li class="show-print-only">
+                <a href="https://www.linkedin.com/in/teresabacigalupi/">
+                    <i class="fab fa-linkedin"></i> LinkedIn.com/in/TeresaBacigalupi
+                </a>
+            </li>
         </ul>            
     </nav>
-    <header class="show-print-only navigation" id="js-top">   
+    <header class="show-web-only navigation" id="js-top">   
         <h2 class="title-sub">&lt Lets find magic in coding &gt</h2>
     </header>
         <main role="main">
@@ -44,7 +79,7 @@
         </section>   
           <!--my skills-->
         <section class="skills box" id="js-skills" role="region">
-                <h2 class="blue"><i class="fas fa-cog"></i>Skills</h2>
+                <h2 class="dark"><i class="fas fa-cog"></i>Skills</h2>
                 <div class="skills-container">
                     <figure class="figure-skills">
                         <img src="images/html.png" alt="HTML"/>
@@ -87,12 +122,12 @@
         </section>
         <!-- my projects screen  -->
         <section class="work box" id="js-projects" role="region">
-            <h2 class="dark"><i class="fas fa-briefcase"></i>Work</h2>
+            <h2 class="blue"><i class="fas fa-briefcase"></i>Work</h2>
             <div class= "projects-box" aria-live="assertive">
             </div>
         </section>
           <!-- Contact me -->
-        <section class="contact box" id ="js-contact" region="contact-info">
+        <section class="show-web-only contact box" id ="js-contact" region="contact-info">
             <h2 class="dark address"><i class="fas fa-address-book"></i>Contact</h2>
             <div class= "social-box">
                 <ul>
@@ -103,7 +138,7 @@
             </div>
         </section>
     </main>
-    <footer><div class="copy-right">&copyMartyna Bulska 2020</div></footer>
+    <footer class="show-web-only"><div class="copy-right">&copyMartyna Bulska 2020</div></footer>
  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
  <script src="projects.js"></script>
  <script src="main.js"></script>
