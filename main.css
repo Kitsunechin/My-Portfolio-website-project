@@ -138,6 +138,7 @@ section h2.dark {
 }
 
 /* about me section */
+
 section.about-profile div.photo {
   display: inline-block;
   width: 20%;
@@ -162,11 +163,6 @@ section.about-profile .about-me p {
   margin-bottom: 15px;
 }
 
-section .about-profile {
-  margin-bottom: -10%;
-  padding-top:0;
-
-}
 
 /* work section */
 
@@ -176,6 +172,39 @@ section.work .projects-box {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+section.work .projects-box .project-content {
+  width: 49%;
+}
+
+section.work .projects-box .project-image-wrapper {
+  margin-right: 1%;
+  width: 49%;
+}
+
+section.work .projects-box .project-content, .project-image-wrapper {
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+}
+
+section.work .projects-box .project-image-wrapper .project-image {
+  display: block;
+  margin: 0;
+  width: 100%;
+  opacity: 0.96;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px; 
+}
+
+section.work .project-content .technologies span {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid black;
+  margin: 1%;
 }
 
 section.work .projects-box .project-content .live, .repo {
@@ -203,39 +232,6 @@ section.work .projects-box .project-content .title {
 
 section.work .project-content i.fa-desktop, .fa-code {
   padding-right: 5px;
-}
-
- .project-content, .project-image-wrapper {
-  display: inline-block;
-  padding: 20px;
-  vertical-align: top;
-}
-
-.project-content {
-  width: 49%;
-}
-
-.project-image-wrapper {
-  margin-right: 1%;
-  width: 49%;
-}
-
-.project-image-wrapper .project-image {
-  display: block;
-  margin: 0;
-  width: 100%;
-  opacity: 0.96;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px; 
-}
-
-.project-content .technologies span {
-  display: inline-block;
-  padding: 5px 10px;
-  border: 1px solid black;
-  margin: 1%;
 }
 
 /* section skills */
@@ -317,15 +313,15 @@ footer div.copy-right {
       border: 3px solid blue;
   }
 
-  .photo img {
+  section.about-profile div.photo img {
     width: 270px;
     height: 270px;
   }
 
-  .project-image-wrapper {
+  section.work .projects-box .project-image-wrapper {
     width: 33%;
   }
-  .project-content {
+  section.work .projects-box .project-content {
     width: 65%;
   }
 }
@@ -336,12 +332,12 @@ footer div.copy-right {
       border: 3px solid red;
   }
 
-  .photo img {
+  section.about-profile div.photo img {
     width: 230px;
     height: 230px;
   }
 
-  .project-content, .project-image-wrapper {
+  section.work .projects-box .project-content, .project-image-wrapper {
     display: block;
     width: 99%;
     margin: 0;
@@ -353,19 +349,19 @@ footer div.copy-right {
   body {
       border: 3px solid brown;
   }
-  .photo {
+  section.about-profile div.photo {
     display:block;
     width: 100%;
     float: none;
   }
 
-  .photo img {
+  section.about-profile div.photo img {
     width: 300px;
     height: 300px;
     float: none;
   }
 
-  .about-me {
+  section.about-profile .about-me {
     width: 100%;
     display: block;
   }
@@ -392,142 +388,3 @@ footer div.copy-right {
     grid-template-columns: 1fr;
   }
 }
-/* @media only screen and (min-width: 927px) {
-  
-  .skills-container {
-    display: grid;
-    flex-flow: column wrap;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    margin: 1rem 1rem;
-  }
-} 
-
-@media only screen and (max-width: 1024px) {
-  .skills {
-    font-weight: bolder;
-  }
-
-  .about-me {
-    width: 40%;
-    left: 10%;
-  }
-
-  .skills-container {
-    display: grid;
-    flex-flow: column wrap;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    margin: 1rem 1rem;
-
-  }
-
-  .contact.box {
-    padding-top: 6%;
-    padding-bottom: 10%;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .nav-list {
-    display: flex;
-  }
-
-  button.contact-button {
-    padding: 1.3em;
-  }
-
-  .skills-container {
-    display: grid;
-    flex-flow: column wrap;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    margin: 1rem 1rem;
-  }
-}
-@media only screen and (max-width: 1138px) {
-
-  img {
-    margin: 60px;
-  }
-
-}
-
-@media only screen and (max-width: 640px) {
-
-   .photo img { 
-    width: 200px;
-    height: 200px;
-    margin: 70px;
-  }
-
-  .photo {
-    width: 200px;
-    height: 200px;
-    margin-right: 9%;
-  }
-
-  .about h2 {
-    margin-top: 25%;
-  }
-
-  .nav-list {
-    flex-direction: column;
-    text-align: left;
-    width: 25%;
-    font-size: 70%;
-  }
-    
-  .nav-item {
-    margin: 0;
-    display: none;
-  }
-
-  .button-menu {
-    display: block;
-    margin-right: 2%;
-    float: right;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background-color: #282C34;
-}
-
-  header {
-    padding-bottom: 25%;
-  }
-
-  .skills-container {
-    display: grid;
-    flex-flow: column wrap;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    margin: 1rem 1rem;
-  }
-
-}
-
-@media only screen and (max-width: 768px) {
-  .photo img {
-    float: right;
-    width: 300px;
-    height: 300px;
-    margin-top: -98%;
-    margin-left: -20%
-  }
-
-  .photo {
-    float: right;
-    width: 200px;
-    height: 200px;
-  }
-
-  .about-me {
-    width: 100%
-  }
-  
-} */
-
-  
-
-  
