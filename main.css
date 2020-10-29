@@ -213,7 +213,7 @@ section.work .project-content .technologies span {
 
 section.work .projects-box .project-content .live, .repo {
   background-color: #61DAFB;
-  color: white;
+  color: #424349;
   border-radius: 1rem;
   padding: 0.7rem 1rem;
   display: inline-block;
@@ -372,7 +372,7 @@ footer div.copy-right {
 
 /*iPhone portrait*/
 @media only screen and (max-width: 320px) {
-  
+
   section.skills .skills-container {
     grid-template-columns: 1fr;
   }
