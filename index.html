@@ -7,9 +7,10 @@
     <meta name="keywords" content="portfolio, frontend, developer showcasing projects, jquery, javascript, API">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Muli|Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,500&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ab8ac85df2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="print.css" rel="stylesheet" media="print">
 </head>
 <body>
     <!-- navigation -->
@@ -23,7 +24,7 @@
             <li class="nav-item" id="js-nav-item"><i class="fas fa-address-book"></i><a class="js-nav-link" href="#js-contact">Contact</a></li>
         </ul>            
     </nav>
-    <header class="navigation" id="js-top">   
+    <header class="show-print-only navigation" id="js-top">   
         <h2 class="title-sub">&lt Lets find magic in coding &gt</h2>
     </header>
         <main role="main">
@@ -40,13 +41,7 @@
                     <p> My other passions in life are design and art, which I love to explore and convey also within my coding projects.</p>
                 </div>
             </div>
-        </section>
-           <!-- my projects screen  -->
-        <section class="work box" id="js-projects" role="region">
-            <h2 class="dark"><i class="fas fa-briefcase"></i>Work</h2>
-            <div class= "projects-box" aria-live="assertive">
-            </div>
-        </section>
+        </section>   
           <!--my skills-->
         <section class="skills box" id="js-skills" role="region">
                 <h2 class="blue"><i class="fas fa-cog"></i>Skills</h2>
@@ -89,6 +84,12 @@
                         <figcaption>Github</figcaption>
                     </figure>
                 </div>
+        </section>
+        <!-- my projects screen  -->
+        <section class="work box" id="js-projects" role="region">
+            <h2 class="dark"><i class="fas fa-briefcase"></i>Work</h2>
+            <div class= "projects-box" aria-live="assertive">
+            </div>
         </section>
           <!-- Contact me -->
         <section class="contact box" id ="js-contact" region="contact-info">
