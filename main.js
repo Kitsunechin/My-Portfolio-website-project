@@ -28,12 +28,22 @@ function addProject() {
             <br>
             <p class="technologies">${project[index].technologies}</p>
             <br>
+            <div class="show-web-only">
             <a class="repo-live live" href="${project[index].live}" target="_blank">
                 <i class="fa fa-desktop"></i>demo
             </a>
             <a class="repo-live repo" href="${project[index].repo}" target="_blank">
                 <i class="fa fa-code"></i>code
             </a>
+            </div>
+            <ul class="print-links show-print-only">
+                        <li>
+                            <i class="fas fa-desktop"></i> ${project[index].live}
+                        </li>
+                        <li>
+                            <i class="fab fa-github"></i> ${project[index].repo}
+                        </li>
+                    </ul>
         </div>
         <br>`
     }

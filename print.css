@@ -6,7 +6,7 @@
             }
     */
     body {
-        width: 1200px!important;
+        width: 1024px!important;
     }
     /* div, section, footer, header, main {
         float: left!important;
@@ -19,6 +19,25 @@
     }
     .show-print-only {
         display: block !important;
+    }
+    nav {
+        padding: 1% 0;
+        background-color: #F7FEFF;
+        position: relative; 
+        /* top: 0; 
+        left: 0; 
+        right: 0; 
+        z-index: 10;  */
+        display: block;
+        height: auto;
+        clear: both;
+    }
+
+    nav ul.nav-list {
+        display: block;
+        margin-right: 0%;
+        float: none;
+        text-align: right;
     }
     .skills {
         page-break-after: always;

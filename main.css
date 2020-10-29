@@ -30,6 +30,10 @@ body {
   background-color: #0c1f2d;
 }
 
+.show-print-only {
+  display: none !important;
+}
+
 i.fas {
   margin-top: 1%;
   margin-right: 1%;
@@ -302,16 +306,11 @@ footer div.copy-right {
 
 /*large desktop*/
 @media only screen and (max-width: 1600px) {
-  body {
-      border: 3px solid yellow;
-  }
+  
 }
 
 /*iPad lanscape / small laptop*/
 @media only screen and (max-width: 1024px) {
-  body {
-      border: 3px solid blue;
-  }
 
   section.about-profile div.photo img {
     width: 270px;
@@ -328,9 +327,6 @@ footer div.copy-right {
 
 /*iPad potrait*/
 @media only screen and (max-width: 768px) {
-  body {
-      border: 3px solid red;
-  }
 
   section.about-profile div.photo img {
     width: 230px;
@@ -346,9 +342,7 @@ footer div.copy-right {
 
 /*Android landscape*/
 @media only screen and (max-width: 640px) {
-  body {
-      border: 3px solid brown;
-  }
+
   section.about-profile div.photo {
     display:block;
     width: 100%;
@@ -370,9 +364,6 @@ footer div.copy-right {
 
 /*iPhone landscape*/
 @media only screen and (max-width: 480px) {
-  body {
-      border: 3px solid green;
-  }
 
   section.skills .skills-container {
     grid-template-columns: 1fr 1fr;
@@ -381,9 +372,7 @@ footer div.copy-right {
 
 /*iPhone portrait*/
 @media only screen and (max-width: 320px) {
-  body {
-      border: 3px solid purple;
-  }
+  
   section.skills .skills-container {
     grid-template-columns: 1fr;
   }
