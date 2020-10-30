@@ -340,7 +340,7 @@ footer div.copy-right {
     height: 230px;
   }
 
-  section.work .projects-box .project-content, .project-image-wrapper {
+  section.work .projects-box .project-image-wrapper {
     display: block;
     width: 99%;
     margin: 0;
