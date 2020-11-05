@@ -49,7 +49,7 @@ const project = [
         project: "Quiz App",
         description: "Do you want to test your knowledge on Avengers? <br > You can stop looking as this app will test your knowledge on the popular franchise",
         technologies: "<span> HTML </span> <span> CSS </span> <span> JavaScript </span> <span> jQuery </span>",
-        live: "https://kitsunechin.github.io/jQuery-Quiz-app",
-        repo: "https://github.com/Kitsunechin/jQuery-Quiz-app"
+        live: "https://kitsunechin.github.io/avengers-quiz-app/",
+        repo: "https://github.com/Kitsunechin/avengers-quiz-app"
     },
 ];
