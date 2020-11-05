@@ -29,7 +29,7 @@ const project = [
         description: "Are you also an organizing freak when it comes to your photos? <br/> You can now store all your photos in a portfolio format",
         technologies: "<span> HTML </span> <span> CSS </span> <span> JavaScript </span> <span> Angular </span>",
         live: "https://cdv.martynab.now.sh/",
-        repo: "https://github.com/Kitsunechin/My-Portfolio-website-project"
+        repo: "https://github.com/Kitsunechin/angular-photgraphy-portfolio-project"
     }, {
         img: "images/movie.png",
         project: "Booking App",
